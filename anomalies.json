@@ -1,0 +1,234 @@
+[
+  {
+    "source_row_id": 2,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "invalid_ip",
+    "recommended_action": "Correct or remove invalid IP value."
+  },
+  {
+    "source_row_id": 2,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "low_confidence_device_type",
+    "recommended_action": "Review device_type classification; add more rules or use LLM."
+  },
+  {
+    "source_row_id": 3,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "invalid_ip",
+    "recommended_action": "Correct or remove invalid IP value."
+  },
+  {
+    "source_row_id": 4,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "invalid_ip",
+    "recommended_action": "Correct or remove invalid IP value."
+  },
+  {
+    "source_row_id": 5,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "link_local_ipv6",
+    "recommended_action": "Ensure scope/interface is tracked separately if needed."
+  },
+  {
+    "source_row_id": 6,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "reserved_loopback",
+    "recommended_action": "Exclude or tag as test/localhost."
+  },
+  {
+    "source_row_id": 6,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "missing_mac",
+    "recommended_action": "Populate MAC if available; otherwise leave null."
+  },
+  {
+    "source_row_id": 6,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "missing_device_type",
+    "recommended_action": "Classify device_type or leave null with low confidence."
+  },
+  {
+    "source_row_id": 7,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "link_local_apipa",
+    "recommended_action": "Verify device networking; consider excluding."
+  },
+  {
+    "source_row_id": 7,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "missing_mac",
+    "recommended_action": "Populate MAC if available; otherwise leave null."
+  },
+  {
+    "source_row_id": 7,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "missing_device_type",
+    "recommended_action": "Classify device_type or leave null with low confidence."
+  },
+  {
+    "source_row_id": 8,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "missing_mac",
+    "recommended_action": "Populate MAC if available; otherwise leave null."
+  },
+  {
+    "source_row_id": 9,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "invalid_ip",
+    "recommended_action": "Correct or remove invalid IP value."
+  },
+  {
+    "source_row_id": 9,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "missing_mac",
+    "recommended_action": "Populate MAC if available; otherwise leave null."
+  },
+  {
+    "source_row_id": 9,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "missing_device_type",
+    "recommended_action": "Classify device_type or leave null with low confidence."
+  },
+  {
+    "source_row_id": 10,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "invalid_ip",
+    "recommended_action": "Correct or remove invalid IP value."
+  },
+  {
+    "source_row_id": 10,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "missing_mac",
+    "recommended_action": "Populate MAC if available; otherwise leave null."
+  },
+  {
+    "source_row_id": 10,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "missing_device_type",
+    "recommended_action": "Classify device_type or leave null with low confidence."
+  },
+  {
+    "source_row_id": 11,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "broadcast",
+    "recommended_action": "Confirm intended subnet and correct IP."
+  },
+  {
+    "source_row_id": 11,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "missing_mac",
+    "recommended_action": "Populate MAC if available; otherwise leave null."
+  },
+  {
+    "source_row_id": 11,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "missing_device_type",
+    "recommended_action": "Classify device_type or leave null with low confidence."
+  },
+  {
+    "source_row_id": 12,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "network_id",
+    "recommended_action": "Confirm intended subnet and correct IP."
+  },
+  {
+    "source_row_id": 12,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "missing_mac",
+    "recommended_action": "Populate MAC if available; otherwise leave null."
+  },
+  {
+    "source_row_id": 12,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "missing_device_type",
+    "recommended_action": "Classify device_type or leave null with low confidence."
+  },
+  {
+    "source_row_id": 13,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "missing_mac",
+    "recommended_action": "Populate MAC if available; otherwise leave null."
+  },
+  {
+    "source_row_id": 14,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "missing_mac",
+    "recommended_action": "Populate MAC if available; otherwise leave null."
+  },
+  {
+    "source_row_id": 15,
+    "fields": [
+      "ip"
+    ],
+    "issue_type": "invalid_ip",
+    "recommended_action": "Correct or remove invalid IP value."
+  },
+  {
+    "source_row_id": 15,
+    "fields": [
+      "mac"
+    ],
+    "issue_type": "missing_mac",
+    "recommended_action": "Populate MAC if available; otherwise leave null."
+  },
+  {
+    "source_row_id": 15,
+    "fields": [
+      "device_type"
+    ],
+    "issue_type": "missing_device_type",
+    "recommended_action": "Classify device_type or leave null with low confidence."
+  }
+]
